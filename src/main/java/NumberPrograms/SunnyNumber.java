@@ -3,7 +3,7 @@ package NumberPrograms;
 public class SunnyNumber {
     public static void main(String args[]) {
         //declare an int variable and initialize with a static value
-        int inputNumber = 8;
+        int inputNumber = 18;
 
         //declare a variable which store next value of input number
         double next = inputNumber + 1;

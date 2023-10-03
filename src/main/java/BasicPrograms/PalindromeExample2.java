@@ -10,6 +10,7 @@ public class PalindromeExample2 {
         System.out.println("Enter a string/number to check if it is a palindrome from 1 to 10000000");
         original = in.nextLine();
         int length = original.length();
+        System.out.println("Sayı "+length+" basamaklı");
         for ( int i = length - 1; i >= 0; i-- )
             reverse = reverse + original.charAt(i);
         if (original.equals(reverse))
